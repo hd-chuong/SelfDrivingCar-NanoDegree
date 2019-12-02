@@ -9,6 +9,8 @@ The goals of this project are the following:
 ---
 
 ### Reflection
+[image1]: ./examples/grayscale.jpg "Grayscale"
+[image_hough]: ./examples/Drawline.PNG "Hough lines"
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
@@ -17,7 +19,7 @@ In this project, I built the pipeline that consists of 7 steps, each step is ass
 #### (a) The basic pipeline:
 
 ##### 1. Grayscale the image.
-[image1]: ./examples/grayscale.jpg "Grayscale"
+
 ![Grayscale][image1]
 ##### 2.  Apply the Gaussian Blur with kernel_size = 3 to reduce the sporadic change.
 ##### 3.  Apply Canny Edge Detection with the ratio min : max threshold = 1 : 3. Particularly, min_threshold = 80, max_threshold = 240.
@@ -30,7 +32,7 @@ In this project, I built the pipeline that consists of 7 steps, each step is ass
 </ul>
 
 ##### 5. Apply the Hough transform to extract the edges. In this given set of images, the edges are expected to be the borders of the lane lines. 
-[image_hough]: ./examples/Drawline.png "Hough lines" 
+ 
 ![Hough lines][image_hough]
 
 ##### 6. Calculate the lane lines.
