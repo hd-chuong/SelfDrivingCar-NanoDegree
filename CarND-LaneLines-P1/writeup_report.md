@@ -28,9 +28,11 @@ In this project, I built the pipeline that consists of 7 steps, each step is ass
     <li>(500, 330)</li>
     <li>(960, 540)</li>
 </ul>
+
 ##### 5. Apply the Hough transform to extract the edges. In this given set of images, the edges are expected to be the borders of the lane lines. 
-[image_hough]: ./examples/Drawline.PNG "Hough lines" 
-![Hough][image_hough]
+[image_hough]: ./examples/Drawline.png "Hough lines" 
+![Hough lines][image_hough]
+
 ##### 6. Calculate the lane lines.
 <p>How did I design the draw_lines?</p>
 <p>As required, the lane lines must be extrapolated (extended) to two ends of the region of interest. In order to achieve this, </p>
